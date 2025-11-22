@@ -76,7 +76,7 @@ const RelativityExplorer = () => {
     setIsPlaying(false); // Pause while thinking/reading
 
     const currentStepData = steps[currentStep];
-    const apiKey = ""; // Runtime provided environment variable
+    const apiKey = "AIzaSyB8AWpYy4GEmSR1Rm8Tjpy368Q6pcw8-YU"; // Runtime provided environment variable
 
     let prompt = "";
     const systemInstruction = "You are a helpful, fun physics tutor specializing in Special Relativity.";
